@@ -1,0 +1,19 @@
+/*Запуск файла docker-compose.yml*/
+docker-compose up -d
+
+/*Остановить и удалить контейнеры */
+docker-compose down
+
+/*Наличие запущенных контейнеров */
+docker ps 
+
+/*Наличие установленных контейнеров */
+docker ps -a 
+
+/*Запуск название контейнера */
+docker exec -it [name container] bash
+
+/*Остановить название контейнера */
+docker stop [name container]
+
+
